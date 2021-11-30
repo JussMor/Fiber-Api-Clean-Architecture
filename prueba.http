@@ -1,0 +1,13 @@
+POST http://localhost:3000/api/auth/signup HTTP/1.1
+content-type: application/json
+
+{
+    "fullname": "junior  Zambrano",
+    "email": "jussmor@gmail.com",
+    "password": "password2",
+    "gender": true
+}
+
+
+###
+GET http://localhost:3000/api/user/2 HTTP/1.1
